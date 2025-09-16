@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivana</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f0f0f0;
+    }
 
+    /* Top bar layout */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      background: white;
+    }
+
+    .search input {
+      padding: 8px;
+      border-radius: 15px;
+      border: 1px solid #ccc;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    .right-buttons {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .contact {
+      padding: 8px 12px;
+      background: #BCC9A4;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .menu {
+      width: 25px;
+      height: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .menu div {
+      height: 4px;
+      background: #333;
+    }
+
+    /* Colored margin box */
+    .color-box {
+      width: 1238px;
+      height: 147px;
+      background: #BCC9A4;
+      margin: 20px auto;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="search">
+      <input type="text" placeholder="Search..." />
+    </div>
+
+    <div class="right-buttons">
+      <button class="contact">Contact</button>
+      <div class="menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="color-box"></div>
+
+</body>
+</html>
