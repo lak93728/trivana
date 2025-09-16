@@ -9,13 +9,23 @@
       background: #f0f0f0;
     }
 
-    /* Top bar */
+    .top-section {
+      background: #BCC9A4;
+      width: 100%;
+      height: 147px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     .top-bar {
+      width: 1238px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 15px;
-      background: white;
     }
 
     .search input {
@@ -36,10 +46,11 @@
 
     .contact {
       padding: 8px 12px;
-      background: #BCC9A4;
+      background: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      font-weight: bold;
     }
 
     .menu {
@@ -54,41 +65,27 @@
       height: 4px;
       background: #333;
     }
-
-    /* Green margin box */
-    .color-box {
-      width: 1238px;
-      height: 147px;
-      background: #BCC9A4;
-      margin: 0 auto;
-      border-bottom-left-radius: 20px;
-      border-bottom-right-radius: 20px;
-    }
   </style>
 </head>
 <body>
 
-  <div class="top-bar">
-    <div class="search">
-      <input type="text" placeholder="Search..." />
-    </div>
+  <div class="top-section">
+    <div class="top-bar">
+      <div class="search">
+        <input type="text" placeholder="Search..." />
+      </div>
 
-    <div class="logo">
-      <!-- Replace with your logo file -->
-      <img src="your-logo.png" alt="Trivana Logo">
-    </div>
 
-    <div class="right-buttons">
-      <button class="contact">Contact</button>
-      <div class="menu">
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="right-buttons">
+        <button class="contact">Contact</button>
+        <div class="menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="color-box"></div>
 
 </body>
 </html>
