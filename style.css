@@ -48,12 +48,14 @@ body {
 }
 
 .logo {
-  height: 102px; 
-  width: 369px;  
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 369px;
+  height: 102px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 20px; 
 }
 
 .logo img {
