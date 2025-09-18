@@ -49,8 +49,7 @@ body {
 
 .logo {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 506px;
   width: 369px;
   height: 102px;
   display: flex;
@@ -59,8 +58,8 @@ body {
 }
 
 .logo img {
-  width: 369px;
-  height: 102px;
+  width: 1000px;
+  height: 5000px;
   object-fit: contain; 
   display: block;
 }
