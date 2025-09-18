@@ -44,17 +44,6 @@ body {
   box-shadow: none;
 }
 
-.logo {
-  width: 396px;
-  height: 102px;
-}
-
-.logo img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 .right-buttons {
   display: flex;
   align-items: flex-start;
@@ -71,17 +60,19 @@ body {
 }
 
 .menu {
-  width: 20px;
-  height: 18px;
+  width: 26px;
+  height: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .menu div {
-  height: 2px;
+  height: 1.5px;
   background: #333;
   width: 100%;
+  border-radius: 1px;
 }
 
 .content-box {
@@ -89,7 +80,7 @@ body {
   max-width: 600px;
   background: #F5F2EB;
   border-radius: 20px;
-  margin: 12px auto 0 auto;
+  margin: 57px auto 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
