@@ -19,6 +19,9 @@ body {
 
 .top-section {
   background: #BCC9A4;
+  position: absolute; 
+  height: 100px;
+  width: 1281px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 12px 20px;
@@ -97,7 +100,7 @@ body {
 .banner-image {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 760px;
   transform: translateX(-50%);
   width: 1238px;
   height: 492px;
@@ -120,6 +123,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 40px 20px;
+ 
   
 }
 
@@ -141,9 +145,88 @@ body {
 .group-fun-heading {
   position: absolute;
   top: 523px;
-  left: 204px;
+  left: 12px;
   font-family: 'Jost', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: black;
+}
+
+ .outdoorescapes{
+  position: absolute;
+  top: 1150px;
+  left: 12px;
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+ }
+
+ .historyandheritage{
+  position: absolute;
+  top: 1775px;
+  left: 12px;
+  font-family: 'Jost', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+ }
+
+.container{
+max-width: 174px;
+flex-direction: column;
+gap: 10px;
+margin: 0 auto;
+
+}
+
+.card-grid {
+  display: grid;
+  margin-right: 250px;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+  top: 600px;
+  border-radius: 15px;
+  row-gap: 125px;
+  column-gap: 60px;
+
+ 
+}
+
+
+
+.card {
+border-radius: 15px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+width: 372px;
+height: 500px;
+}
+
+.img {
+  height: 50%; 
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+  border-radius: 15px;
+
+}
+
+.heading {
+
+}
+
+.description {
+
 }
